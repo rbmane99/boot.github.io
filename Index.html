@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form format</title>
+</head>
+<body>
+	<h1>liveserver</h1>
+	<p>fj sjernfderhnds</p>
+	<h3>cdskjfreiussfjkd fjdgrunf vnjfd vnfdj</h3>
+
+	<h2>Register</h2>
+	<form>
+		<label for="firstname">First Name:</label>
+		<input id="firstname" type="text" name="firstname" required>
+		<label for="lastname">Last Name:</label>
+		<input id="lastname" type="text" name="lastname" required>
+		<p>
+			<label>
+				Male
+			<input type="radio" name="gender" value="male" required>
+			</label>
+			<label>
+				Female
+				<input type="radio" name="gender" value="female">
+			</label>
+			<label>
+				other
+				<input type="radio" name="gender" value="other">
+			</label>
+		</p>
+		<p>
+		<label>
+			email:
+			<input type="email" name="email-id" required>
+	    </label>
+	    <label for="pass">password:</label>
+	    	<input type="password" name="password"  pattern=".{5,10}" required title="5 to 10 characters">
+		</p>
+		    <p><label>Birthdate:
+		    	
+		    	<select name="date" required>
+		    		<option value="">day</option>
+		    		<option value="1">1</option>
+		    		<option value="2">2</option>
+		    		<option value="3">3</option>
+		    		<option value="4">4</option>
+		    		<option value="5">5</option>
+		    	</select>
+		    	
+		    	<select name="month" required>
+		    		<option value="">month</option>
+		    		<option value="jan">jan</option>
+		    		<option value="feb">feb</option>
+		    		<option value="march">march</option>
+		    		<option value="april">apr</option>
+		    		<option value="may">may</option>
+		    		
+		    	</select>
+		    	<select name="year" required>
+		    		<option value="">year</option>
+		    		<option value="1999">1999</option>
+		    		<option value="2000">2000</option>
+		    		<option value="2001">2001</option>
+		    		<option value="2002">2002</option>
+		    		<option value="2003">2003</option>
+		    		
+		    	</select>
+		    	</label>
+	    	
+	    	
+	    </p>
+	    I agree to the terms and conditions
+	    <input type="checkbox" required>
+	    <p><button>submit</button></p>
+	</form>
+
+</body>
+</html>
